@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="elhalili">
+    <output-path>$PROJECT_DIR$/out/artifacts/elhalili</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Body-parser" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../EasyServlet/target/EasyServlet-1.0-SNAPSHOT.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Body-parser/web/Web" />
+    </root>
+  </artifact>
+</component>

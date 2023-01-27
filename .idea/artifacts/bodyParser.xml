@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bodyParser">
+    <output-path>$PROJECT_DIR$/out/artifacts/bodyParser</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Body-parser" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../EasyServlet/target/EasyServlet-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="google.code.gson" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Body-parser/web/Web" />
+    </root>
+  </artifact>
+</component>
